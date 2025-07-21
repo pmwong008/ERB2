@@ -1,0 +1,20 @@
+Database concepts
+
+fixed length # Peter_____15__OOPS___
+tab based # Tab instead of Space
+csv # comma separated
+
+client server mode
+RDBMS # Relational Database Management System
+DB Server, Web Server (RDBMS resides), Client Browser
+
+MySQL (Structured Query Language)
+Community version, open source, no support
+Enterprise version, semi-open source, deployment $$$, extra feature, technical support
+
+Ethical hacker
+PosGressSQL
+MSSQL
+
+MySQL on GPL License Terms
+http://www.fsf.org/licenses
