@@ -92,7 +92,7 @@ SELECT
 	Name,
     Population,
     SurfaceArea,
-    Population/SurfaceArea as ppl # Calculated field will also be printed
+    Population/SurfaceArea AS ppl # Calculated field will also be printed
 FROM
 	world.country
 WHERE
