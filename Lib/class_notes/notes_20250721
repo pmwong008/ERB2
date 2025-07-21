@@ -54,6 +54,49 @@ with connection.cursor() as fred:
     fred.execute(do_something_query)
     fred.execute(do_something_else_query)
     ...
-    fred.commit()
+    connection.commit()
 
+INSERT INTO movies( title, release_year, genre, collection_in_mil )
+VALUES (
+
+'''
+SELECT
+    Name,
+    Region
+FROM
+    country
+WHERE
+    Name = "Austria" OR Population > 100000;
+'''
+
+WHERE NOT
+ORDER BY # id by default, 'sort' as in others
+    Population DESC # reverse sort
+AND (    OR    )
+
+Filter criteria
+Join Table
+
+pip install mysql-connector-python
+pip install python-dotenv
+
+import os # to use .env
+
+# Null cannot be tested with any operators
+IS NULL
+IS NOT NULL
+
+We can define a column to prevent from getting NULLs
+
+SELECT
+	Name,
+    Population,
+    SurfaceArea,
+    Population/SurfaceArea as ppl # Calculated field will also be printed
+FROM
+	world.country
+WHERE
+	Population / SurfaceArea > 5000
+ORDER BY
+	Name DESC;
 
