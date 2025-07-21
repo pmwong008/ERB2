@@ -18,3 +18,42 @@ MSSQL
 
 MySQL on GPL License Terms
 http://www.fsf.org/licenses
+
+MySQL Data types
+Must be defined to start with, less flexible
+integer (+/-) (1,2,3,4 & 8 bit)
+float...
+date, datetime, time, timestamp, text, blob, varbinary...
+year, set, enum, OpenGIS spatial types (longitude/ latitude)...
+
+pip install python connector
+
+connect
+create DB (case insensitive in nature, by convention, use ALL_CAPS)
+connect
+query
+modify & save
+close
+
+connection timeout
+
+getpass
+environmental variable
+';' automatically appends a semicolon at the end of your one-line query. Termination of instruction.
+
+In MySQL workbench
+showdatabases; # to see all DB in your account
+
+Identifier, uniqueness, integer, auto increment, not necessarily be integer, can be other things, UUID
+
+Primary Key
+Foreign Key, look-up other relational DB, make reference to them
+Compound Key
+
+with connection.cursor() as fred:
+    fred.execute(do_something_query)
+    fred.execute(do_something_else_query)
+    ...
+    fred.commit()
+
+
